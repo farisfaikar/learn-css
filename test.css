@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ol.nested > li + li {
+    border: 2px palevioletred solid;
+}
+
+[title="aqua"] {
+    background-color: aqua;
+}
+
+[title*="i"] {
+    border: 2px dashed black;
+}
+
+[href$=".pdf"] {
+    background-color: cyan;
+}
+
+[href$=".pdf"]::after {  
+    content: ' (PDF)';
+}
