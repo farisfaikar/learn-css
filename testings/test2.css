@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    background-color: peru;
+    aspect-ratio: 1 / 1;
+    width: 100vw;
+    height: 100vh;
+}
