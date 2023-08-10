@@ -159,3 +159,11 @@ nav ul li a:hover::after {
     font-size: .875rem;
     font-weight: 600;
 }
+
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active-content {
+    display: block;
+}

@@ -37,15 +37,30 @@
             <p>Esse eu est anim pariatur cillum reprehenderit amet laboris laboris duis tempor mollit. Reprehenderit non eiusmod deserunt incididunt exercitation. Magna adipisicing officia exercitation sunt mollit ullamco. Magna adipisicing enim nisi anim aliqua nisi anim ut proident qui. Tempor eiusmod pariatur adipisicing irure.</p>
 
             <div class="tab-titles">
-              <p class="tab-links active-link">Skills</p>
-              <p class="tab-links">Experience</p>
-              <p class="tab-links">Education</p>
+              <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+              <p class="tab-links" onclick="openTab('experience')">Experience</p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
             </div>
 
-            <div class="tab-contents">
+            <!-- Skills -->
+            <div class="tab-contents active-content" id="skills"> 
+              <ul>
+                <li><span>Python Pygame</span><br>Creating games and simulations using Python Pygame</li>
+                <li><span>Laravel Web Development</span><br>Designing Web/App interfaces using the Laravel Framework</li>
+              </ul>
+            </div>
+            <!-- Experience -->
+            <div class="tab-contents" id="experience">
               <ul>
                 <li><span>Game/Simulation Development</span><br>Creating games and simulations using Python Pygame</li>
                 <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+              </ul>
+            </div>
+            <!-- Education -->
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Informatics Engineering - UNNES</span><br>I'm an informatics engineering student in State University of Semarang</li>
+                <li><span>RIPTEK Organization</span><br>Expert Staff at RIPTEK college organization</li>
               </ul>
             </div>
           </div>
@@ -71,5 +86,6 @@
     </ul>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
